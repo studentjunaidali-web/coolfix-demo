@@ -1,0 +1,146 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Sample AC repair, installation and maintenance business website.">
+  <title>CoolFix Services | AC Repair</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      color: #172033;
+      line-height: 1.6;
+      background: #f7f9fc;
+    }
+    header {
+      background: #fff;
+      padding: 18px 7%;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+      border-bottom: 1px solid #e5eaf2;
+    }
+    .logo { font-size: 22px; font-weight: 800; color: #0759b5; }
+    nav a { margin-left: 16px; text-decoration: none; color: #172033; }
+    .hero {
+      padding: 75px 7%;
+      background: #eaf3ff;
+      text-align: center;
+    }
+    .hero h1 { font-size: clamp(32px, 5vw, 52px); line-height: 1.15; }
+    .hero p { max-width: 600px; margin: 20px auto; color: #48556a; }
+    .btn {
+      display: inline-block;
+      padding: 13px 20px;
+      border-radius: 8px;
+      background: #0759b5;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+      border: 0;
+      cursor: pointer;
+    }
+    section { padding: 50px 7%; }
+    h2 { text-align: center; font-size: 30px; }
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 18px;
+      margin-top: 28px;
+    }
+    .card {
+      background: white;
+      padding: 24px;
+      border-radius: 12px;
+      border: 1px solid #e5eaf2;
+    }
+    .card h3 { color: #0759b5; }
+    .contact {
+      text-align: center;
+      background: #eaf3ff;
+    }
+    footer {
+      padding: 22px;
+      text-align: center;
+      color: #647084;
+      font-size: 14px;
+    }
+    @media (max-width: 600px) {
+      header { justify-content: center; }
+      nav a { margin: 0 7px; font-size: 14px; }
+      .hero { padding: 52px 6%; }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">CoolFix Services</div>
+    <nav>
+      <a href="#services">Services</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <h1>Stay Cool. We Handle Your AC.</h1>
+      <p>
+        Sample local AC service business offering repair,
+        installation and routine maintenance.
+      </p>
+      <a class="btn" href="#contact">Request a Quote</a>
+    </section>
+
+    <section id="services">
+      <h2>Our Services</h2>
+      <div class="services">
+        <article class="card">
+          <h3>AC Repair</h3>
+          <p>Inspection and troubleshooting for common AC problems.</p>
+        </article>
+        <article class="card">
+          <h3>Installation</h3>
+          <p>Installation service based on your equipment and needs.</p>
+        </article>
+        <article class="card">
+          <h3>Maintenance</h3>
+          <p>Routine cleaning and maintenance enquiries.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about">
+      <h2>About CoolFix</h2>
+      <p style="max-width:650px;margin:auto;text-align:center">
+        This is a demonstration website. A real business can replace
+        this text with its verified service area, experience and details.
+      </p>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Need AC Service?</h2>
+      <p>Contact us to discuss your requirements.</p>
+      <!-- Replace the placeholder number before publishing -->
+      <a class="btn"
+         href="https://wa.me/923001234567?text=Hello%2C%20I%20need%20AC%20service."
+         target="_blank" rel="noopener noreferrer">
+        Contact on WhatsApp
+      </a>
+      <p style="font-size:13px">
+        Demo only. Replace this number with the business owner's
+        approved WhatsApp number.
+      </p>
+    </section>
+  </main>
+
+  <footer>
+    Sample portfolio project | CoolFix Services
+  </footer>
+</body>
+</html>
